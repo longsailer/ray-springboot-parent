@@ -18,8 +18,8 @@
 	<developers>
 		<developer>
 			<name>Ray</name>
-			<url>http://gitlab.agrisaas.com.cn/frameworks/zn-springboot-parent.git</url>
-			<email>yang.zhou@cesgroup.com.cn</email>
+			<url>https://github.com/longsailer/ray-springboot-parent</url>
+			<email>longsail@hotmail.com</email>
 		</developer>
 	</developers>
 
@@ -249,31 +249,36 @@
 
 	<repositories>
 		<repository>
-			<id>maven-repo</id>
-			<name>maven Repository</name>
-			<url>http://nexus.agrisaas.cn/repository/maven-public/</url>
+			<id>kskf-releases</id>
+			<name>kuaisukaifa release</name>
+			<url>https://repo.rdc.aliyun.com/repository/25107-release-Eso7dC/</url>
+		</repository>
+		<repository>
+			<id>kskf-snapshots</id>
+			<name>kuaisukaifa snapshots</name>
+			<url>https://repo.rdc.aliyun.com/repository/25107-snapshot-HDWA0j/</url>
 		</repository>
 	</repositories>
 
 	<pluginRepositories>
-		<pluginRepository>
-			<id>maven-repo</id>
-			<name>maven Repository</name>
-			<url>http://nexus.agrisaas.cn/repository/maven-public/</url>
-		</pluginRepository>
+		<repository>
+			<id>kskf-releases</id>
+			<name>kuaisukaifa release</name>
+			<url>https://repo.rdc.aliyun.com/repository/25107-release-Eso7dC/</url>
+		</repository>
 	</pluginRepositories>
 
 	<distributionManagement>
-		<snapshotRepository>
-			<id>zn-snapshots</id>
-			<name>ZN Snapshots</name>
-			<url>http://nexus.agrisaas.cn/repository/zn-snapshot/</url>
-		</snapshotRepository>
 		<repository>
-			<id>zn-releases</id>
-			<name>ZN Release</name>
-			<url>http://nexus.agrisaas.cn/repository/zn-release/</url>
+			<id>kskf-releases</id>
+			<name>kuaisukaifa release</name>
+			<url>https://repo.rdc.aliyun.com/repository/25107-release-Eso7dC/</url>
 		</repository>
+		<snapshotRepository>
+			<id>kskf-snapshots</id>
+			<name>kuaisukaifa snapshots</name>
+			<url>https://repo.rdc.aliyun.com/repository/25107-snapshot-HDWA0j/</url>
+		</snapshotRepository>
 	</distributionManagement>
 
 	<build>

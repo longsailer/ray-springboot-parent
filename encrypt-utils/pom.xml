@@ -4,8 +4,8 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.cesgroup</groupId>
-		<artifactId>zn-springboot-parent</artifactId>
+		<groupId>org.ray</groupId>
+		<artifactId>ray-springboot-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	<artifactId>encrypt-utils</artifactId>

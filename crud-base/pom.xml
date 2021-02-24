@@ -4,8 +4,8 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.cesgroup</groupId>
-		<artifactId>zn-springboot-parent</artifactId>
+		<groupId>org.ray</groupId>
+		<artifactId>ray-springboot-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	<artifactId>crud-base</artifactId>
@@ -14,8 +14,8 @@
 	<developers>
 		<developer>
 			<name>Ray</name>
-			<url>http://gitlab.agrisaas.com.cn/frameworks/zn-springboot-parent.git</url>
-			<email>yang.zhou@cesgroup.com.cn</email>
+			<url>https://github.com/longsailer/ray-springboot-parent</url>
+			<email>longsail@hotmail.com</email>
 		</developer>
 	</developers>
 
@@ -37,6 +37,17 @@
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<scope>compile</scope>
 		</dependency>
 
 		<dependency>
